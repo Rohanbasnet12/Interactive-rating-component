@@ -1,0 +1,32 @@
+/* Import Font link */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Variables */
+:root {
+    /* Font Weight */
+    --FONT-WEIGHT-1: 400;
+    --FONT-WEIGHT-2: 700;
+
+    /* Font Family */
+    --PRIMARY-FONT: "Overpass", sans-serif;
+
+    /* Color */
+    --WHITE: hsl(0, 0%, 100%);
+    --LIGHT-GREY: hsl(217, 12%, 63%);
+    --MEDIUM-GREY: hsl(216, 12%, 54%);
+    --DARK-BLUE: hsl(213, 19%, 18%);
+    --VERY-DARK-BLUE: hsl(216, 12%, 8%);
+}
+
+/* General style */
+html,
+body {
+    scroll-behavior: smooth;
+}
